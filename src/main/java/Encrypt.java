@@ -1,8 +1,14 @@
 import java.io.*;
+import java.security.PrivateKey;
 import java.util.ArrayList;
 
 public class Encrypt {
     public static void main(String[] args) throws IOException {
+        ////aaaaaaa
+        //bbbbbbbb
+        ///ccccccc
+        //cccccddd
+        PrivateKey asda;
         File file = new File("C:\\Users\\wuyunlong\\Desktop\\aaa\\secret\\123.txt");
         FileInputStream fileInputStream = new FileInputStream(file);
         FileOutputStream fileOutputStream = new FileOutputStream(new File("C:\\Users\\wuyunlong\\Desktop\\aaa\\secret\\456.awt"));
